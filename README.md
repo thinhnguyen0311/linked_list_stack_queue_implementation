@@ -1,1 +1,1 @@
-# linked_list_stack_queue_implementation
+## This source contains implementations of Linked List, Stack, Queue using C++.
