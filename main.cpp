@@ -1,6 +1,6 @@
 #include <iostream>
 // #include "Linked_list_class.h"
-#include "Stack_class.h"
+#include "Stack_Queue_class.h"
 
 int main()
 {
@@ -21,6 +21,15 @@ int main()
     my_stack.push(10);
     my_stack.pop();
     cout << "My stack: " << my_stack.toString() << endl << endl;
+
+    // Test queue:
+    IntQueue my_queue;
+    my_queue.enqueue(30);
+    my_queue.enqueue(1);
+    my_queue.enqueue(55);
+    my_queue.enqueue(100);
+    my_queue.dequeue();
+    cout << "My queue: " << my_queue.toString() << endl << endl;
 
     return 0;
 }
